@@ -1,10 +1,7 @@
-import { Suspense } from 'react';
-import Test from './_components/Test';
+import FirstComponent from './_components/FirstComponent';
 
 export default function Home() {
   return (
-    <Suspense>
-      <Test/>
-    </Suspense>
+    <FirstComponent/>
   );
 }
